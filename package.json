@@ -1,12 +1,12 @@
 {
 	"name": "esbuild-plugin-babel",
-	"version": "0.2.4",
+	"version": "0.2.5",
 	"description": "Babel plugin for esbuild.",
 	"repository": "darrenthebozz/esbuild-plugin-babel",
 	"author": "Darrenthebozz (https://github.com/darrenthebozz/esbuild-plugin-babel)",
 	"license": "ISC",
-	"exports": "./src/index.js",
-	"main": "src/index.js",
+	"exports": "./src/index.ts",
+	"main": "src/index.ts",
 	"type": "module",
 	"scripts": {
 		"format": "prettier --write --ignore-unknown '**/*'"
