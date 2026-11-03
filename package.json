@@ -1,9 +1,9 @@
 {
 	"name": "esbuild-plugin-babel",
-	"version": "0.2.3",
+	"version": "0.2.4",
 	"description": "Babel plugin for esbuild.",
-	"repository": "nativew/esbuild-plugin-babel",
-	"author": "Antoine Boulanger (https://github.com/antoineboulanger)",
+	"repository": "darrenthebozz/esbuild-plugin-babel",
+	"author": "Darrenthebozz (https://github.com/darrenthebozz/esbuild-plugin-babel)",
 	"license": "ISC",
 	"exports": "./src/index.js",
 	"main": "src/index.js",
@@ -12,11 +12,14 @@
 		"format": "prettier --write --ignore-unknown '**/*'"
 	},
 	"peerDependencies": {
-		"@babel/core": "^7.0.0"
+		"@babel/core": "^8.1.0"
 	},
 	"devDependencies": {
-		"@babel/core": "7.13.10",
-		"prettier": "^2.2.1"
+		"@babel/core": "8.1.0",
+		"@types/convert-source-map": "^2.0.3",
+		"@types/node": "^26.6.6",
+		"esbuild": "^0.28.2",
+		"prettier": "^3.9.10"
 	},
 	"files": [
 		"src"
